@@ -217,11 +217,13 @@ const predict = async (req, res) => {
         // Store user history to database
         await knex('histories').insert(userHistories);
 
+        const finalResult = await knex('diseases').select('*').where('disease', result)
+
         res.status(200).send({
             code: '200',
             status: 'ok',
             data: {
-                result: result
+                result: finalResult[0]
             }
         });
 
