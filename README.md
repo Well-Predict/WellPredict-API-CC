@@ -46,10 +46,10 @@ npm install
 | DB_CLIENT | mysql |
 | DB_HOST | localhost (local) or your ip connection from cloud sql |
 | DB_USERNAME | root |
-| DB_PASSWORD | <your database password> |
-| DB_DATABASE | <your database name> |
-| ACCES_TOKEN_KEY | <your secret key for access token> |
-| REFRESH_TOKEN_KEY | <your secret key for refresh token> |
+| DB_PASSWORD | your database password |
+| DB_DATABASE | your database name |
+| ACCES_TOKEN_KEY | your secret key for access token |
+| REFRESH_TOKEN_KEY | your secret key for refresh token |
 
 3. Open XAMPP console and then start Apache and MySql.
 4. Open MySql admin and login to your MySql account (default login can enter username:'root' & password:'Just leave it blank')
