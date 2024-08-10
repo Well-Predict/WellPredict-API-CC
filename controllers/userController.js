@@ -118,6 +118,8 @@ const login = async (req, res) => {
                     code: '200',
                     status: 'ok',
                     data: {
+                        name: validationEmail[0].name,
+                        email: validationEmail[0].email,
                         accesToken: accesToken,
                         refreshToken: refreshToken
                     }
